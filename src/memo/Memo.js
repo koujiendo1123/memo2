@@ -34,6 +34,7 @@ class Memo extends Component{
                     <table><tbody>{data}</tbody></table>
                     );
         }
+        return (<div></div>);
     }
 }
 export default connect((state)=>state)(Memo);
